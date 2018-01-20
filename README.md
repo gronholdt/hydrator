@@ -2,7 +2,6 @@ Hydrator
 ========
 
 [![Build Status](https://travis-ci.org/solbianca/hydrator.svg?branch=master)](https://travis-ci.org/solbianca/hydrator)
-
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/solbianca/hydrator/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/solbianca/hydrator/?branch=master)
 
 Hydrator can be used for two purposes:
