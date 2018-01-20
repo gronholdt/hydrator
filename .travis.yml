@@ -1,0 +1,20 @@
+# Config file for https://travis-ci.org/
+# Validate this file here - http://lint.travis-ci.org/
+
+language: php
+
+php:
+  - 7.0
+  - 7.1
+  - 7.2
+
+branches:
+  only:
+    - master
+
+install:
+  - composer self-update
+  - composer install
+
+script:
+  - php vendor/codeception/codeception/codecept run
