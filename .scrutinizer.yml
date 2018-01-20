@@ -1,0 +1,22 @@
+imports:
+  - php
+
+filter:
+  paths: [src/*]
+
+tools:
+  external_code_coverage: false
+  php_analyzer: true
+  php_mess_detector: true
+  sensiolabs_security_checker: true
+  php_changetracking: true
+  php_cs_fixer:
+    config: { level: psr2 }
+  # disable copy paste detector and similarity analyzer as they have no real value
+  # and a huge bunch of false-positives
+  php_sim: false
+  php_cpd: false
+
+checks:
+  php:
+    code_rating: true
