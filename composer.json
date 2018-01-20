@@ -1,0 +1,29 @@
+{
+  "name": "solbianca/hydrator",
+  "type": "library",
+  "description": "Hydrate objects from an array and  extracting data from objects.",
+  "keywords": [
+    "hydrator",
+    "extract",
+    "hydrate"
+  ],
+  "homepage": "https://github.com/solbianca/hydrator",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexander Fedorov",
+      "email": "neivweb@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "require-dev": {
+    "codeception/codeception": "^2.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "SolBianca\\Hydrator\\": "src/"
+    }
+  }
+}
